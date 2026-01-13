@@ -39,7 +39,6 @@ A production-quality enterprise search application that uses Google Drive as the
 
 This MVP version is optimized for free tier usage:
 - **File Types**: Only PDFs (no Google Docs)
-- **File Count**: Maximum 5 PDF files indexed
 - **Content Limit**: First 50,000 characters per file
 - **Purpose**: Keep token usage minimal while demonstrating full functionality
 
