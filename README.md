@@ -129,9 +129,6 @@ You can adjust these limits in `.env` by changing `MAX_FILES_TO_INDEX`, `FILE_TY
    # Gemini API Key (optional - only needed for text generation, not embeddings)
    GEMINI_API_KEY=your_gemini_api_key_here
    
-   # Optional: Model configuration (defaults to free tier models)
-   LLM_MODEL=gemini-1.5-flash  # Free tier model (or gemini-pro for paid)
-   EMBEDDING_MODEL=models/embedding-001  # Only used as fallback if local model fails
    ```
    
    **Important**: Embeddings use local `sentence-transformers` by default (no API key needed, no rate limits). Gemini API key is only required for text generation (search answers).
